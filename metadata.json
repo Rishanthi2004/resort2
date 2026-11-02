@@ -1,0 +1,6 @@
+{
+  "name": "Kaialuna Sanctuary Resort",
+  "description": "Cinematic, 3D-driven luxury tropical resort showcase featuring interactive WebGL environments, realistic floating physics, villa showcases, and editorial motion design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
