@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Sparkles, Eye, Waves, Compass, Coffee, ShieldCheck } from 'lucide-react';
+import { RESORT_IMAGES } from '../assets/images';
 
 interface Hotspot {
   id: string;
@@ -58,8 +59,8 @@ export const VillaShowcase: React.FC = () => {
   const [currentView, setCurrentView] = useState<'exterior' | 'interior'>('exterior');
   const [activeHotspot, setActiveHotspot] = useState<Hotspot | null>(null);
 
-  const exteriorImg = '/src/assets/images/experience_luxury_villa_1793611582271.jpg';
-  const interiorImg = '/src/assets/images/villa_suite_interior_1793611581499.jpg';
+  const exteriorImg = RESORT_IMAGES.experienceVilla;
+  const interiorImg = RESORT_IMAGES.villaInterior;
 
   const visibleHotspots = HOTSPOTS.filter((h) => h.view === currentView);
 

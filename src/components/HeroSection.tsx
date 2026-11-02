@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { ArrowDownRight, Compass } from 'lucide-react';
+import { RESORT_IMAGES } from '../assets/images';
 
 interface HeroSectionProps {
   onOpenBooking: () => void;
@@ -36,7 +37,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenBooking }) => {
           }}
         >
           <img
-            src="/src/assets/images/hero_resort_villa_1793611580912.jpg"
+            src={RESORT_IMAGES.heroVilla}
             alt="Kaialuna Overwater Luxury Villa & Horizon Pool"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center filter brightness-[0.96] contrast-[1.03] transition-transform duration-[12000ms] ease-in-out hover:scale-105"

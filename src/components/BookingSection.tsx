@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { Sparkles, ArrowRight, ShieldCheck, Waves } from 'lucide-react';
+import { RESORT_IMAGES } from '../assets/images';
 
 interface BookingSectionProps {
   onOpenBooking: () => void;
@@ -27,7 +28,7 @@ export const BookingSection: React.FC<BookingSectionProps> = ({ onOpenBooking, o
         {/* Cinematic Slow-Zoom Twilight Background Image */}
         <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
           <img
-            src="/src/assets/images/sanctuary_twilight_escape_1793611604707.jpg"
+            src={RESORT_IMAGES.twilightSanctuary}
             alt="Kaialuna Twilight Sanctuary Atoll"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center scale-105 transition-transform duration-[14000ms] ease-out hover:scale-110 filter brightness-[0.88]"

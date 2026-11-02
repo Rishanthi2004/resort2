@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Sparkles, X, Check, ArrowRight } from 'lucide-react';
 import { ResortExperience } from '../types';
+import { RESORT_IMAGES } from '../assets/images';
 
 const EXPERIENCES: ResortExperience[] = [
   {
@@ -10,7 +11,7 @@ const EXPERIENCES: ResortExperience[] = [
     subtitle: 'Overwater & Cliff Pavilions',
     description:
       'Engineered with sustainable teak and sun-bleached travertine, each standalone sanctuary cantilevers directly above private coral lagoons with individual freshwater plunge pools.',
-    image: '/src/assets/images/experience_luxury_villa_1793611582271.jpg',
+    image: RESORT_IMAGES.experienceVilla,
     maskClass: 'mask-organic-arch',
     tag: 'Architectural Seclusion',
     details: {
@@ -25,7 +26,7 @@ const EXPERIENCES: ResortExperience[] = [
     subtitle: 'Multi-Tiered Azure Oasis',
     description:
       'Perched on natural limestone bluffs, three cascading freshwater basins merge seamlessly into the Indian Ocean horizon, accompanied by submerged teak loungers and private cabanas.',
-    image: '/src/assets/images/experience_infinity_pool_1793611582283.jpg',
+    image: RESORT_IMAGES.experiencePool,
     maskClass: 'mask-organic-wave',
     tag: 'Horizon Serenity',
     details: {
@@ -40,7 +41,7 @@ const EXPERIENCES: ResortExperience[] = [
     subtitle: 'Michelin-Caliber Culinary Art',
     description:
       'Open-air lantern-lit pavilions nestled in reflecting lily ponds. Daily catch from local artisanal fishermen prepared alongside biodynamic organic produce grown on-atoll.',
-    image: '/src/assets/images/experience_tropical_dining_1793611583914.jpg',
+    image: RESORT_IMAGES.experienceDining,
     maskClass: 'mask-organic-crest',
     tag: 'Gastronomy & Cellar',
     details: {

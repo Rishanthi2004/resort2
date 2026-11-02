@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
 import { motion, AnimatePresence } from 'motion/react';
 import { ArrowRight, Compass, Sparkles } from 'lucide-react';
+import { RESORT_IMAGES } from '../assets/images';
 
 interface OpeningIntroProps {
   onComplete: () => void;
@@ -252,7 +253,7 @@ export const OpeningIntro: React.FC<OpeningIntroProps> = ({ onComplete }) => {
       <div
         className="absolute inset-0 z-0 pointer-events-none transition-all duration-[6000ms] ease-out will-change-transform"
         style={{
-          backgroundImage: `url(/src/assets/images/hero_resort_villa_1793611580912.jpg)`,
+          backgroundImage: `url(${RESORT_IMAGES.heroVilla})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           transform: `scale(${1.08 + progress * 0.0008})`,

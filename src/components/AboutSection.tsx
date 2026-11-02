@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Sparkles, Sun, Shield, Leaf, X, Check } from 'lucide-react';
+import { RESORT_IMAGES } from '../assets/images';
 
 export const AboutSection: React.FC = () => {
   const [showCharter, setShowCharter] = useState(false);
@@ -83,7 +84,7 @@ export const AboutSection: React.FC = () => {
           <div className="lg:col-span-6 relative">
             <div className="relative w-full aspect-[4/3] rounded-[48px] overflow-hidden shadow-2xl border border-[#E7DFD5]">
               <img
-                src="/src/assets/images/about_resort_architecture_1793612541007.jpg"
+                src={RESORT_IMAGES.aboutArchitecture}
                 alt="Kaialuna Sustainable Resort Architecture"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover transition-transform duration-1000 ease-out hover:scale-105"
