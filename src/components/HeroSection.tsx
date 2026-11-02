@@ -105,18 +105,6 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenBooking }) => {
 
       {/* Center Hero Editorial Content */}
       <div className="relative z-20 max-w-5xl mx-auto my-auto text-center pt-8">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.9, delay: 0.2 }}
-          className="inline-flex items-center gap-3 px-4 py-1.5 rounded-full bg-[#FAF8F5]/80 backdrop-blur-md border border-[#E7DFD5] mb-6 shadow-xs"
-        >
-          <span className="w-2 h-2 rounded-full bg-[#C5A059]" />
-          <span className="text-xs uppercase tracking-[0.3em] font-medium text-[#2C3E35]">
-            North Malé Atoll · Indian Ocean
-          </span>
-        </motion.div>
-
         {/* Large Elegant Headline */}
         <motion.h1
           initial={{ opacity: 0, y: 30 }}

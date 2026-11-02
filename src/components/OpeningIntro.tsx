@@ -269,7 +269,7 @@ export const OpeningIntro: React.FC<OpeningIntroProps> = ({ onComplete }) => {
       <div className="relative z-20 w-full max-w-7xl px-8 pt-8 flex items-center justify-between">
         <div className="flex items-center gap-2.5 text-xs font-medium tracking-[0.3em] uppercase text-[#D4AF37]/90">
           <Compass className="w-3.5 h-3.5 text-[#D4AF37]" />
-          <span>04°12′22″N 73°30′14″E · North Malé Atoll</span>
+          <span>04°12′22″N 73°30′14″E · Private Sanctuary</span>
         </div>
 
         <button
