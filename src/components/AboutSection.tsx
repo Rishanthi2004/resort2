@@ -11,8 +11,6 @@ export const AboutSection: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         {/* Section Header Tag */}
         <div className="flex items-center gap-2 text-xs uppercase tracking-[0.3em] text-[#C5A059] font-semibold mb-4">
-          <span>01</span>
-          <span>·</span>
           <span>The Sanctuary Heritage</span>
         </div>
 

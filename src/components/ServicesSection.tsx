@@ -93,8 +93,6 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onOpenBooking 
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-20 border-b border-[#12231A]/10 pb-10">
           <div>
             <div className="flex items-center gap-2 text-xs uppercase tracking-[0.3em] text-[#C5A059] font-semibold mb-3">
-              <span>03</span>
-              <span>·</span>
               <span>Tailored Bespoke Offerings</span>
             </div>
             <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-[#12231A] font-light leading-tight">
